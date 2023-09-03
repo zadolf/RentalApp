@@ -1,0 +1,38 @@
+#navbar {
+    background-color: white;
+    width: calc(100% - 232px); /* Calculate the width */
+    margin-left: 232px;
+    position: fixed;
+}
+#nav-link {
+    color: white;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+#btn-signup {
+    color: #070571;
+    background-color: white;
+}
+#btn-signup:hover {
+    color: white;
+    background-color: #070571;
+    outline: 1px solid white;
+}
+#avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+#nav-search {
+    width: 400px;
+    margin-left: 40px;
+    background-color: #E0E0E0;
+}
+#bell {
+    color: black;
+}
+#icon {
+    width: 60px;
+}
+#nav-search::placeholder {
+    color: #C0C0C0;
+}
