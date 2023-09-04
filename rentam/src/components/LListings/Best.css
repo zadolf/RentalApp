@@ -1,3 +1,279 @@
-#best-main {
-    margin-left: 232px;
+/* .best {
+    margin-left: 37px;
+    width: 95%;
 }
+.best .head {
+    background: var(--sidebar-color);
+    display: flex;
+    margin-top: 10px;
+    border-radius: 3px;
+    gap: 25px;
+    padding-top: 20px;
+}
+.best .head > *:not(.search) {
+    gap: 25px;
+}
+.best .head-span {
+    justify-content: left;
+    align-items: center;
+    height: 32px;
+    gap: 15px;
+    padding-left: 25px;
+    display: flex;
+    background: red;
+}
+.best .text {
+    color: var(--text-color);
+    outline: none;
+}
+.best .icon-div,
+.best .text {
+    border: 1px solid var(--body-color);
+    border-radius: 3px;
+    height: 100%;
+}
+.best .icon-div {
+    height: 100%;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.best .search {
+    margin-left: 70px;
+}
+.best .btn-search {
+    height: 100%;
+    
+    width: 110px;
+    border-radius: 3px;
+    border: none;
+    background: var(--primary-color);
+    color: var(--sidebar-color);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.best hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: var(--primary-color); 
+    margin: 20px 0;
+} */
+
+
+
+
+
+
+
+.test-div {
+    position: relative;
+    width: 95%;
+    height: 320px;
+    background: var(--sidebar-color);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.second-div {
+    width: 95%;
+    height: 500px;
+    background: var(--sidebar-color);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.test-div .icon {
+    position: absolute;
+    display: flex;
+    border: 1px solid var(--body-color);
+    border-radius: 6px;
+    height: 35px;
+    width: 40px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.test-div .field {
+    position: absolute;
+    display: flex;
+    border: 1px solid var(--body-color);
+    border-radius: 3px;
+    height: 35px;
+    width: 200px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.test-div .btn-search {
+    background: var(--primary-color);
+    color: var(--sidebar-color);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    
+}
+.test-div .btn-search:hover {
+    background: var(--primary-color-light);
+    color: var(--text-color);
+}
+.test-div .field-content {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.test-div .first {
+    margin-left: 25px;
+}
+.test-div .home-type {
+    margin-left: 80px;
+}
+.test-div .second {
+    margin-left: 310px;
+}
+.test-div .location {
+    margin-left: 365px;
+}
+.test-div .third {
+    margin-left: 595px;
+}
+.test-div .price {
+    margin-left: 650px;
+}
+.test-div .btn {
+    margin-left: 880px;
+    width: 135px;
+    border: 6px;
+}
+.test-div .location-input::placeholder {
+    color: var(--text-color);
+    padding-left: 10px;
+}
+.test-div .content {
+    position: absolute;
+    border: 1px solid var(--body-color);
+    margin-top: 75px;
+    border-radius: 6px;
+    height: 234px;
+    width: 311px;
+}
+.test-div .one {
+    margin-left: 35px;
+}
+.test-div .two {
+    margin-left: 364px;
+}
+.test-div .three {
+    margin-left: 693px;
+}
+.test-div .four {
+    margin-left: 766px;
+    display: none;
+}
+.test-div .toggle-next {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--body-color);
+    margin-top: 160px;
+    background: var(--primary-color-light);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.test-div .next-toggles {
+    margin-left: 1013px;
+}
+.test-div .previous-toggles {
+    margin-left: 5px;
+}
+.test-div .image {
+    width: 100%;
+    height: 150px;
+    background: var(--body-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    border-radius: 6px;
+    color: var(--text-color);
+}
+.test-div .title {
+    margin-top: 12px;
+    font-weight: bold;
+    width: 200px;
+}
+.test-div .amount {
+    background: var(--body-color);
+    color: var(--primary-color);
+    display: flex;
+    width: 105px;
+    margin-left: 204px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.test-div .brief-location {
+    color: var(--text-color);
+    width: 145px;
+    gap: 5px;
+    display: flex;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.test-div .describe {
+    width: 35px;
+    background: var(--side-color);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.test-div .FontAwesomeIcon {
+    color: var(--text-color);
+}
+.test-div .parlour {
+    margin-top: 5px;
+}
+.test-div .bedroom {
+    margin-left: 60px;
+    margin-top: -20px;
+}
+.test-div .toilet {
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.test-div .hustel-name {
+    color: var(--text-color);
+    width: 145px;
+    margin-left: 165px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    margin-top: -20px;
+}
+/* .test-div .bedroom {
+    background: var(--body-color);
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+} */
+/* .test-div hr {
+    position: absolute;
+    border: none;
+    height: 1px;
+    background: var(--sidebar-color);
+    margin-top: 75px;
+} */

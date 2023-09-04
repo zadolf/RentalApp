@@ -165,7 +165,7 @@
   }
   .home {
     position: relative;
-    height: 100vh;
+    height: 100%;
     left: 250px;
     width: calc(100% - 250px);
     background: var(--body-color);
@@ -173,13 +173,14 @@
   }
   .home .navbar {
     height: 50px;
-    width: 100%;
-    position: absolute;
+    width: calc(100% - 252px);
+    position: fixed;
     display: flex;
-    left: 2px;
+    left: 252px;
     background: var(--sidebar-color);
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
   }
   .home .search-icon {
   width: 300px;
@@ -199,6 +200,7 @@
   outline: none;
   border: none;
   border-radius: 6px;
+  color: var(--text-color);
   background: var(--body-color);
 }
 .home .end {
@@ -227,4 +229,8 @@
   width: 100%;
   border-radius: 50%;
   border: 1px solid var(--text-color);
+}
+.home .best-text {
+  padding-top: 80px;
+  padding-left: 37px;
 }

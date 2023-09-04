@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Best from '../LListings/Best';
 import icon from '../../assets/icon1.png'
 import icon2 from '../../assets/iconDarkMode.jpeg'
 import avatar from '../../assets/avatar2.jpeg'
@@ -161,6 +162,8 @@ const Sidebar = () => {
             </div>
           </span>
       </nav>
+      <h3 className="best-text">Fine Your Dream Home Here</h3>
+      <Best />
     </section>
     </>
 
